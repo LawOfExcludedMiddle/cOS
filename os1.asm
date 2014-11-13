@@ -31,9 +31,9 @@ start:
 
 	jmp $   ; Jump here - infinite loop - noo
 
-	intro_string db 'Welcome to Christo OS Alpha 0.0.1! If you are reading this, you are awesome!!!',0
+	intro_string db 'Welcome to Christo OS Alpha 0.0.2! If you are reading this, you are awesome!!!',0
 	white_string db '  ',0
-	other_string db 'Huan ying lai dao zhong guo gong chang dang de ren min gong he guo, xin lei feng',0
+	other_string db 'wo shi xiao he dian, xiao he dian, xiao he dian',0
 
 print_string:   ; Routine: output string in SI to screen
 	mov ah, 0Eh   ; into 10h "print char" function
